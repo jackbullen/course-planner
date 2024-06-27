@@ -8,4 +8,9 @@ Be sure to also check out
 - [Live demo](https://mslearn-copilot.azurewebsites.net)
 - [Live demo repo]()
 
-![architecture](https://github.com/jackbullen/mslh/assets/37254717/ada7ec91-0e64-473c-93a6-e858a783deda)
+## Resources
+
+- CosmosDB for MongoDB vCore
+- App Service
+- Azure OpenAI
+- Document Intelligence
