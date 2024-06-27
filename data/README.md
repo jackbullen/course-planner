@@ -36,7 +36,7 @@ The HTML requirements/prerequisites are parsed using an approach found in [VikeL
 
 4. **Embeddings**
 
-Embeddings are computed using the OpenAI text embedding model text-embedding-ada-002. These embeddings map text strings into a high dimensional space to capture semantics for comparisons. The model is deployed from Azure OpenAI Studio with an Azure OpenAI service. Scripts for calling the endpoints and adding embeddings are in the embeddings dir. In here it shows how the embeddings were made: for degrees it makes a string from code, name, and cred fields, and for courses it uses the code, name, and description.
+Embeddings are computed using the OpenAI text embedding model text-embedding-ada-002. These embeddings map text strings into a high dimensional space to capture semantics for comparisons. The model is deployed from Azure OpenAI Studio with an Azure OpenAI service. Scripts for calling the endpoints and adding embeddings are in the embeddings dir. In here it shows how the embeddings were made: for degrees it makes a string from code, name, and cred fields, and for courses it uses the code, name, and description. **I recommend looking at `mslh-live-demo` repo to see how embeddings are computed. The script [there](https://github.com/jackbullen/mslh-live-demo/blob/main/data/embed.py) will work if you run it.**
 
 # Disclaimer
 
