@@ -4,6 +4,7 @@ import { Example } from "./Example";
 import { useState } from "react";
 
 const generateRandomExamples = (): string[] => {
+  // TODO
     return [
         "Suggest courses for this Fall given I have completed Math 204 and Phys 216",
         "Suggest courses for this Fall given I have completed Math 204 and Phys 216",
