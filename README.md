@@ -54,18 +54,14 @@
 
 ## Demos
 
-### 1. Login page
-
-![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExYjc3dDkweTQyY2psdjZ5MmxyamZrbnA5ZWUybTVicXJ1NzVtaTd6eCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GjvRAl31L67WmYEJ17/giphy.gif)
-
-### 2. Upload transcript 
+### 1. Upload transcript 
 After logging in the user can upload their transcript which then sends the formData to the server. The server finds the number of pages in the PDF and batch processes it using Azure AI Document Intelligence to extract tabular data.
 
 After uploading their courses the user confirms the course extraction. Once they confirm pressing continue will save the courses into their profile.
 
 ![](https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExazliNnlhZXN6dXYyaTR5NmU2c2ZuYmFrczB0MThxajI4anRibHNrdSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/PXX8SXAuVlWYShiHiT/giphy.gif)
 
-### 3. Course search
+### 2. Course search
 
 The courses page uses the users courses to find featured courses. These courses have an upcoming section in Fall 2024 or Spring 2025, the user has satisfied all prerequisites for them, and they are a part of the users specified degree program.
 
@@ -73,7 +69,7 @@ Course sections can be registered which display to the right. Clicking on a sect
 
 ![](https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGU2d3Yya3RzeDlkcTg1bnlmOG85NGY3aDhzZzR0MzYyMnl1aXVsZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YFnugWHUiGwdmmvTZZ/giphy.gif)
 
-### 4. Course vector embedding searches
+### 3. Course vector embedding searches
 
 The courses page also enables vector embedding similarity searches
 
@@ -82,24 +78,24 @@ The courses page also enables vector embedding similarity searches
 
 After five seconds of inactivity in the input bar, the client will submit a request to the server to make the similarity search leveraging the Azure CosmosDB for MongoDB vCore vector embedding index cosmosSearch functionality.
 
-### 5. Degree search
+### 4. Degree search
 
 The degrees page has features similar to the courses page. Hovering over a course title will display the upcoming sections if there are any, making it easy and quick to see how the user can work towards completing their degree requirements this year.
 
 ![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExanQydTA2a2thMXloMXlrb2dlOHNrbXJsYzhueWh0dG1zaXZqd2JqZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/GaSDABkyJTnGpcIAKf/giphy.gif)
 
-### 6. Custom AI Copilot (**Cosmongo**)
+### 5. Chatbot
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExNzFteXgwZXFhb3Y0bzA3bGFkeHJibHU0ZXFyN2pseTY3aXd1NWwzcyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/irSrnGyjbiekmOSr8x/giphy.gif)
 ![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeG51a3B6ajNvZHhhZDBlZjRrYzFmMTJ1MzllYW9uZm40c2tkZ3lkMSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/cE6yjbtS64v4QEe8gi/giphy.gif)
 
-### 7. Profile
+### 6. Profile
 
 The profile page hosts a user image, their completed courses, and their schedule for the currently registered sections from the courses page.
 
 ![](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExN2FsZjBrZ3d6cDNtdnUwNXVzcnIwNmNlNGFrYzY0cGxocjB5ZTlwaiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/YgodwVeuEFB5BeuAC1/giphy.gif)
 
-### 8. Mobile friendly
+### 7. Mobile friendly
 
 Across the site are mobile friendly designs for small screens
 
