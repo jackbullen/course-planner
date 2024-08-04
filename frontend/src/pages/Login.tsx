@@ -50,8 +50,7 @@ const Login = () => {
             <div className="h-screen flex flex-col justify-center gap-10 items-center bg-blue-900">
                 <div>
                     <div className="m-2 mb-4">
-                        <h1 className="text-4xl">Welcome to my <br />Microsoft AI Learning Hackathon</h1>
-                        <i className="text-xl">Hope that you enjoy your stay</i>
+                        <h1 className="text-4xl">Course Planner</h1>
                     </div>
                     <div>
                         <form onSubmit={handleLogin}>
@@ -79,6 +78,7 @@ const Login = () => {
             <div className="fixed top-3/4 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
                 {/* {isLoggingIn && <Spinner2 />} */}
             </div>
+            
             {/* This div was inspired by browser developer tools getting imprinted onto screen, thought it lookes nice. */}
             {/* <div className="bg-blue-700 bg-opacity-10 fixed z-10 top-0 right-0 ttr w-[230px] h-full"></div> */}
             <div className="text-right border-2 border-dotted">

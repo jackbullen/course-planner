@@ -51,7 +51,7 @@ export default function Home(): JSX.Element {
         <>
             <div className="p-8">
                 <div>
-                    <h1 className="text-4xl">Welcome {userCourses.length > 0 && "back"} to vCore Cosmongo</h1>
+                    <h1 className="text-4xl">Welcome {userCourses.length > 0 && "back"}</h1>
                 </div>
                 <div className="mt-4">
                     {isLoading ? <Spinner className="absolute top-1/2 left-1/2" /> : (
