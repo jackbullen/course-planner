@@ -1,0 +1,29 @@
+[
+    {
+        "id": 1,
+        "name": "Tony Montana",
+        "username": "tony",
+        "password": "scrypt:32768:8:1$pz0lUnyZXyuAyK2K$03372583a52fa39b0c012a6dfbf9b379862324f1b9611cbadf49cc077e9f0c4496bd264d27e9a286c84f01f12d819fc8e520fede2d8d563a5823f5f3f25ed2af",
+        "public": "This is the most secure authentication system ever devised 1",
+        "degree": "Combined Business and Political Science",
+        "degreeCode": "BFA-THFM",
+        "specialization": "Acting Focus",
+        "completedCourses": [],
+        "registeredSections": [],
+        "pictureUrl": "https://www.dictionary.com/e/wp-content/uploads/2018/03/Tony-Montana.jpg",
+        "chatSessions": ["123456789", "hey, testing testing"]
+    },
+    {
+        "id": 9,
+        "name": "Jack Bullen",
+        "username": "jbullen",
+        "password": "scrypt:32768:8:1$Y7obs42qFZTbikET$e2241850fa0ea3ebea522f534a8edad89e729dbf8c74ce1c5eafff1ee0ece4b0120205c07966b6bd951903a988631b24398adf065011928bb0a1fb9d7efc37b7",
+        "public": "This is the most secure authentication system ever devised 9",
+        "degree": "Computer Science and Mathematics",
+        "degreeCode": "BSC-CTSC",
+        "completedCourses": [],
+        "registeredSections": [],
+        "pictureUrl": "https://avatars.githubusercontent.com/u/37254717?v=4",
+        "chatSessions": ["123456789", "hey, testing testing"]
+    }
+]
