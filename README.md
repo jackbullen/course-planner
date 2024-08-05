@@ -14,6 +14,29 @@
 - Langchain + ChatGPT bot with context data lookup
 - User profiles to enable persistent chat sessions and list of completed courses.
 
+## Local usage
+
+1. Clone the repository
+2. Setup the database (Will eventually remove use of CosmosDB because it is not required and expensive. Ideally run mongodb locally and set something up for vector searches alongside it. I think backend will start as long as it connects to some mongo server, but vector searches, which are the main part of the app, won't work without CosmosDB)
+```
+cd data
+python3 ./init_db.py
+```
+3. Start the backend:
+```
+cd backend
+python3 -m venv venv
+source venv/bin/activate
+pip3 install -r requirements.txt
+uvicorn api.app:app --reload --host 0.0.0.0
+```
+4. Start the frontend:
+```bash
+cd frontend
+npm i
+npm run dev
+```
+
 ## How it was developed
 
 1. Went through and customized this [Python developer guide](https://github.com/AzureCosmosDB/Azure-OpenAI-Python-Developer-Guide) for my use case
